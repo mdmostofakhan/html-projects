@@ -1,0 +1,95 @@
+/* desktop */
+.col-1 {
+  width: 8.33%;
+}
+.col-2 {
+  width: 12.66%;
+}
+.col-3 {
+  width: 25%;
+}
+.col-4 {
+  width: 33.33%;
+}
+.col-5 {
+  width: 41.46%;
+}
+.col-6 {
+  width: 50%;
+}
+.col-7 {
+  width: 62.33%;
+}
+.col-8 {
+  width: 66.66%;
+}
+.col-9 {
+  width: 75%;
+}
+.col-10 {
+  width: 83.33%;
+}
+.col-11 {
+  width: 11.66%;
+}
+.col-12 {
+  width: 100%;
+}
+
+.logo-nav{
+    text-align: left;
+}
+
+.title-nav{
+    text-align: right;
+}
+
+.menu-nav {
+   flex-direction: row;
+   justify-content: end;
+   margin: 10px 0px;
+}
+
+.menu-nav a{
+    padding: 10px 5px;
+    background-color: transparent;
+}
+
+
+/* profile design start */
+.profile .top-weather-icon{
+   
+    right: 150px;
+    top: 30px;
+    transition:width 2s, transform 3s;
+}
+
+.profile .top-weather-icon:hover{
+   width: 140px;
+}
+
+.profile-desc p{
+    text-align: center;
+    width: 50%;
+    margin:  0 auto;
+    color: gray;
+    margin-bottom: 10px;
+}
+
+.bottom-weather-icon{
+    bottom: 20px;
+    left: 140px;
+   width: 120px;
+    transition: 2s;
+}
+
+.bottom-weather-icon:hover{
+   width: 160px;
+}
+
+.profile{
+    content: '';
+    display: table;
+    clear: both;
+}
+/* profile design end here */

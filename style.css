@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+
+}
+body{
+    margin: 0;
+}
+
+.navbar{
+    background-color: rgb(15, 200, 225);
+    padding: 10px 20px;
+    text-align: center;
+    /* margin: 10px 20pxs; */
+}
+
+.navbar::after{
+    content: '';
+    clear: both;
+    display: table;
+}
+
+[class*='col-']{
+    float: left;
+    padding: 10px;
+}
+
+/* for mobile */
+
+[class*='col-']{
+    width: 100%;
+}
+
+
+
+.logo-nav img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+}
+
+.title-nav{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.title-nav h1{
+    margin: 0;
+    padding-top: 10px;
+}
+
+.menu-nav{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+}
+
+
+.menu-nav a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    background-color: darkgreen;
+    margin: 8px 0px;
+    border-radius: 10px;
+
+}
+
+.menu-nav a:hover{
+    background-color: gray;
+}
+
+/* profile style second */
+
+ img{
+    width: 150px;
+    border-radius: 20px;
+}
+
+p{
+    text-align: justify;
+    font-size: 1.2rem;
+}
+
+.profile{
+    padding: 150px 10px;
+    text-align: center;
+    position: relative;
+}
+
+.profile .top-weather-icon{
+    position: absolute;
+    right: 60px;
+    top: 30px;
+    transition: 2s;
+}
+
+.profile .top-weather-icon:hover{
+   transform: rotate(360deg);
+}
+
+.profile-desc h1{
+    font-family: 'Satisfy', cursive;
+    font-size: 3rem;
+}
+
+.profile-desc p{
+    text-align: center;
+    width: 90%;
+    margin: 2px auto 20px auto;
+    color: gray;
+    
+}
+
+.bottom-weather-icon{
+    position: absolute;
+    left: 60px;
+    bottom: 10px;
+    transition: 2s;
+}
+
+.bottom-weather-icon:hover{
+   transform: rotate(360deg);
+}
