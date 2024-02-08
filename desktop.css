@@ -89,7 +89,30 @@
 
 .profile{
     content: '';
-    display: table;
+    /* display: table; */
     clear: both;
 }
 /* profile design end here */
+
+
+/* .cards-container{
+    background-color: green;
+    height: 100%;
+} */
+
+/* about me start */
+
+.aboutme-images{
+    margin-top: 100px;
+}
+
+.aboutme-images img{
+    width: 250px;
+    height: 270px;
+}
+
+.aboutme-desc p{
+    text-align: left;
+}
+
+

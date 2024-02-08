@@ -76,12 +76,15 @@ body{
 
 /* profile style second */
 
- img{
+ .top-weather-icon{
     width: 150px;
     border-radius: 20px;
 }
-
-p{
+.bottom-weather-icon{
+    width: 150px;
+    border-radius: 20px;
+}
+.pont{
     text-align: justify;
     font-size: 1.2rem;
 }
@@ -90,6 +93,7 @@ p{
     padding: 150px 10px;
     text-align: center;
     position: relative;
+    
 }
 
 .profile .top-weather-icon{
@@ -125,4 +129,115 @@ p{
 
 .bottom-weather-icon:hover{
    transform: rotate(360deg);
+}
+
+
+/* cards start here */
+
+/* .cards-container{
+   
+    display: flex;
+    margin: 100px 0;
+    gap: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+} */
+
+
+/* .cards-profile{
+ 
+    padding: 20px;
+    display: flex;
+    background-color: gray;
+    border-radius: 10px;
+    box-sizing: border-box;
+    width: 400px;
+    margin: 0px auto;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+
+
+/* h1{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+   
+
+} */
+
+/* .card-img{
+    width: 150px;
+    height: 6=80px;
+} */
+
+/* .title-card{
+    padding: 10px;
+    color: white;
+} */
+/* hr{
+    border: 3 px;
+    width: 200px;
+    
+} */
+
+/* about me start here */
+
+h2{
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.dotted-hr{
+    border: 2px dotted white;
+    border-bottom: none;
+    margin: 20px auto;
+    width: 100px;
+    
+}
+
+.about-me{
+    margin: 50px 0;
+    background-color: green;
+    padding: 1% 7%;
+    color: white;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.aboutme-images img{
+    border: 5px solid white;
+    width: 200px;
+    height: 220px;
+    border-radius: 50%;
+
+}
+
+.about-me p{
+    text-align: center;
+}
+
+.about-me a{
+    font-size: 1.2rem;
+    color: white;
+    text-decoration: none;
+}
+
+.cv-button{
+    background-color: darkgoldenrod;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 10px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.about-me::after{
+    clear: both;
+    content: '';
+    display: table;
 }
